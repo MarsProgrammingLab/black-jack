@@ -18,7 +18,7 @@ let playerEl = document.getElementById("player-el");
 playerEl.textContent = player.name + ": $" + player.chips;
 // Create function getRandomCard() that returns a number between 1 and 13
 function getRandomCard() {
-  // Use Math.floor to remove decimals from returned number
+  // Use Math.floor to remove decimals from returned n 
   let randomNum = Math.floor(Math.random() * 13) + 1;
   if (randomNum === 1) {
     return 11;
